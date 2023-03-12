@@ -1,0 +1,83 @@
+ul {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    list-style: none;
+    text-align: right;
+}
+
+header {
+
+    background-color: black;
+    ;
+}
+
+#heade {
+    display: block;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#logo {
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+
+a {
+    padding: 30px 30px;
+}
+
+#first {
+    border: solid 1px;
+    padding: 10px 10px;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+#second {
+    border: solid 1px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+main article {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 250px;
+}
+
+.mercureimg {
+    width: 150px;
+    height: 150px;
+}
+
+
+.venusimg {
+    width: 150px;
+    height: 150px;
+}
+
+.laterreimg {
+    width: 150px;
+    height: 150px;
+}
+
+.marsimg {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+

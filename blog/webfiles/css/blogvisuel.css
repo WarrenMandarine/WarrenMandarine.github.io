@@ -1,0 +1,265 @@
+.imgheader {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #9F9F9F;
+}
+
+.imgracoon {
+    width: 308px;
+    height: 203px;
+    padding-right: 26px;
+    padding-top: 43px;
+    grid-area: img;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+
+article {
+    display: grid;
+    margin: auto;
+    max-width: 1040px;
+    grid-template-areas:
+        "img time"
+        "img title"
+        "img p";
+}
+
+main {
+    width: 86%;
+}
+
+main h2 {
+    font-size: 36px;
+    line-height: 41px;
+    font-family: 'Cardo', serif;
+    grid-area: title;
+    margin: 0;
+}
+
+main article time {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 17px;
+    line-height: 23px;
+    color: #9F9F9F;
+    grid-area: time;
+    margin: 0;
+}
+
+main article p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    grid-area: p;
+    margin: 0;
+}
+
+aside {
+    max-width: 378px;
+    box-shadow: 0px 4px 30px 0px rgb(0 0 0 / 5%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 500;
+    background-color: #FBFBFB;
+    width: 20%;
+}
+
+aside a {
+    list-style: none;
+    text-decoration: none;
+    color: #9F9F9F;
+    display: block;
+    padding-bottom: 17px;
+}
+
+aside ul {
+    padding-left: 58px;
+    list-style: none;
+}
+
+aside h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: black;
+    margin: auto;
+    padding-left: 58px;
+    padding-top: 43px;
+}
+
+aside div {
+
+    height: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #9F9F9F;
+}
+
+.divaside {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#logotw {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 35px;
+    padding-top: 36px;
+    padding-right: 65px;
+}
+
+#logofb {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 36px;
+    padding-top: 35px;
+    padding-right: 30px;
+}
+
+#imglogo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.accueil {
+    width: 64px;
+    height: 23px;
+    padding-right: 110px;
+    padding-left: 142px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+}
+
+.article {
+    width: 64px;
+    height: 23px;
+    padding-right: 110px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+    color: black;
+}
+
+.apropos {
+    width: 78px;
+    height: 23px;
+    padding-right: 110px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+}
+
+.contact {
+    width: 69px;
+    height: 23px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+}
+
+
+
+
+@media screen and (max-width: 280px) {}
+
+@media screen and (max-width: 768px) {
+    .imgheader {
+        width: 100%;
+    }
+    main {
+        width: 98%;
+    }
+
+    .accueil{
+        padding-left: 0%;
+    }
+
+    aside {
+        max-width: 799px;
+        background-color: #FBFBFB;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 10.89%);
+        text-align: center;
+        width: 100%;
+    }
+
+    aside ul {
+        padding-left: 0%;
+    }
+    
+    aside h3{
+        padding-left: 0%;
+    }
+
+    aside div {
+        margin: auto;
+        max-width: 281px;
+        background: #C4C4C4;
+
+    }
+
+    .imgracoon {
+        width: 75%;
+        grid-area: img;
+        margin: auto;
+        object-fit: cover;
+        
+    }
+    
+    .divaside {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    header nav ul {
+        text-align: left;
+        flex-direction: column;
+    }
+
+    article {
+        display: grid;
+        grid-template-areas: "title time" "img img " "p p";
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    main article p { 
+        grid-area: p;
+        text-align: justify;
+    }
+
+    main h2 {
+        grid-area: title;
+    }
+
+    main article time {
+        grid-area: time;
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) {}
+
+/**
+
+    
+
+}

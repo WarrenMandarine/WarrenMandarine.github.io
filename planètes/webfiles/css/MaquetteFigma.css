@@ -1,0 +1,373 @@
+ul {
+    display: flex;
+    background-color: #1B2430;
+    color: aliceblue;
+    list-style: none;
+    text-align: right;
+    margin: 0;
+}
+
+header {
+
+    background-color: #1B2430;
+
+}
+
+
+#heade {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+    width: 775px;
+    text-align: justify;
+
+}
+
+
+#logo {
+    width: 55px;
+    height: 50px;
+}
+
+a {
+    display: block;
+    padding: 30px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav li {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#first {
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: #D6D5A8;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 26px;
+    box-shadow: inset;
+}
+
+#second {
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#autre {
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: #816797;
+    background-image: linear-gradient(rgba(129, 103, 151, 0.5), rgba(81, 85, 126, 0.5));
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 30px
+}
+
+#autre2 {
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#autre3 {
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#mercure {
+    font-size: 36px;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#venus {
+    font-size: 36px;
+    margin-bottom: 22px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#laterre {
+    font-size: 36px;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#mars {
+    font-size: 36px;
+    margin-bottom: 21px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#jupiter {
+    font-size: 36px;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#saturne {
+    font-size: 36px;
+    margin-bottom: 21px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#uranus {
+    font-size: 36px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#neptune {
+    font-size: 36px;
+    margin-bottom: 21px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+main section {
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+    align-items: center;
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+main {
+    background-color: #F6F6F6;
+}
+
+main section img {
+    width: 300px;
+    height: 285px;
+}
+
+
+footer {
+
+    width: 100%;
+    height: 378px;
+    background-color: #1B2430;
+    margin: auto
+}
+
+#imgneptune {
+    margin-left: 95px;
+}
+
+#imguranus {
+    margin-right: 127px;
+}
+
+#imgsaturne {
+    margin-left: 95px;
+}
+
+#imgjupiter {
+    margin-right: 127px;
+}
+
+#imgmars {
+    margin-left: 95px;
+}
+
+#imglaterre {
+    margin-right: 127px;
+}
+
+#imgvenus {
+    margin-left: 95px;
+}
+
+#imgmercure {
+    margin-right: 127px;
+}
+
+main h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+footer p {
+    text-align: center;
+    margin: auto;
+    color: white;
+    ;
+}
+
+
+footer div nav ul {
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+
+footer div nav ul li a {
+    color: #9F9F9F;
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.lesG {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.lesT {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.lesP {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F6F6F6;
+
+}
+
+@media screen and (max-width:768px) {
+
+
+
+}
+
+@media screen and (max-width:1024px) {
+
+
+}
+
+@media screen and (min-width:768px) {
+
+
+
+}
+
+/*jusqu'à 280 px de large
+
+
+footer #gauche {
+    border-right: 2px solid white;
+    padding-right: 15%;
+
+ }
+
+ footer #droite {
+    border-left: 1px solid white;
+    padding-left: 15%;
+ }
+
+ .hr2{
+    padding-top: 20px;
+ }
+
+ .hr3 {
+    font-family: 'Montserrat';
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    font-size: 1.0625rem;
+ }
+
+ .hr3::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 1px;
+    top: 40%;
+    left: 0;
+ }
+
+ .hr3::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 1px;
+    top: 40%;
+    right: 0;
+ }
+*/

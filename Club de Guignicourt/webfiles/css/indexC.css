@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body  {
+    background-color: #E5E5E5;
+}
+header {
+    background-color: #345765;
+}
+
+#logoimg{
+    height: 80px;
+}
+
+#Divheader {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    align-items: center;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 40px;
+    display: block;
+}
+
+.individuelles {
+    padding-right: 2.5rem;
+}
+
+.equipes {
+   padding-right: 2.5rem;
+}
+
+.clubs {
+    padding-right: 2.5rem;
+}
+
+.documents {
+    padding-right: 2.5rem;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #34A58A;
+    letter-spacing: 0.1rem;
+    line-height: 3.75rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 7rem;
+    padding-bottom: 3.5rem;
+}
+
+#imgh1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+#displayflexFOOTER{
+
+    display: flex;
+    justify-content: center
+}
+
+#divleft{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #6B5B54;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+main section h2:nth-of-type(2) {
+    margin-top: 8rem;
+}
+
+
+
+#présentation, #cartes{
+    padding-top: 7rem;
+}
+
+#coordonées { 
+    padding-top: 4.1rem;
+}
+ 
+#footerleft p {
+color: #FFFFFF;
+}
+
+main li {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    color: #34A58A;
+}
+
+main a {
+    text-decoration: none;
+    color: #34A58A;
+
+}
+
+footer li {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.56rem;
+    letter-spacing: 6%;
+
+}
+
+footer h3 {
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.37rem;
+    font-weight: 500;
+    line-height: 1.56rem;
+    letter-spacing: 6%;
+
+}
+
+footer section  p {
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: 1.56rem;
+    letter-spacing: 6%;
+    color: #FFFFFF;
+}
+
+footer section  #divjurid p {
+text-decoration: underline;
+}
+main{ 
+    background-color: #E5E5E5;
+}
+
+main p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    color: black;
+    line-height: 1.56rem;
+    letter-spacing: 5%;
+    font-weight: 300;
+}
+
+iframe{
+    border: 5px solid #FFFFFF;
+    border-radius: 10px; 
+    
+}
+
+
+
+#footerimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#divsiege{
+    display: flex;
+    flex-direction: column;
+}
+
+#imglocationdiv{
+    display: flex;
+}
+
+#cocodudistrict{
+display: flex;
+flex-direction: column;
+}
+
+#imgteldiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.section2{
+    margin-left: 15rem;
+    margin-right: 0rem;
+  
+}
+
+#divAinst{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#divcommité{
+    display: flex;
+    align-items: center;
+
+}
+
+#divjurid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 3.75rem;
+    padding-top: 0.1rem;
+}
+
+#divmention{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color:#345765;
+}
+.note5sur20{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.56rem;
+    letter-spacing: 6%;
+    text-align: center;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #Divheader{
+        justify-content: center;
+    }
+    .accueil{
+        padding-left: 0rem;
+    }
+
+    #logoimg {
+        object-fit: cover;
+    }
+
+    header a {
+        font-size: 0.9rem;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    iframe {
+        width: 260px;
+        height: 330px;
+    }
+
+    main p {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        text-align: left;
+    }
+
+    footer h3, footer a, footer section p, .note5sur20{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    @media screen and (max-width: 1024px){
+
+        #Divheader{
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        h1{
+
+            text-align: center;
+        }
+
+        .accueil{
+            padding-left: 5.6rem;
+        }
+
+        header a {
+            font-size: 0.9rem;
+        }
+    
+        header{
+            width: 100%;
+        }
+    
+        iframe {
+            width: 300px;
+            height: 300px;
+        }
+    
+        main p {
+            font-size: 0.9rem;
+            line-height: 1rem;
+            text-align: left;
+        }
+    
+        footer h3, footer a, footer section p, .note5sur20{
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+    
+        h2 {
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+     
+
+    }
+
+ 
+
+}
+
