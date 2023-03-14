@@ -49,7 +49,7 @@ header div {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 775px;
     text-align: justify;
 
@@ -63,146 +63,146 @@ p {
 
 a {
     display: block;
-    padding: 30px 30px;
+    padding: 1.87rem 1.87rem;
     color: white;
     text-decoration: none;
 }
 
 header nav li {
-    font-size: 17px;
+    font-size: 1.06rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3{
-    padding-top: 86px;
-    padding-bottom: 27px;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-top: 5.37rem;
+    padding-bottom: 1.68rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
 
 }
 
 .first {
 
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    padding-top: 1rem;
     background-color: #D6D5A8;
     border-radius: 10px;
     color: black;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
-    margin-right: 26px;
+    margin-right: 1.62rem;
     box-shadow: inset;
 }
 
 .second {
 
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
     background-color: black;
     color: white;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
 }
 
 .autre {
 
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
     background-color: #816797;
     background-image: linear-gradient(rgba(129, 103, 151, 0.5), rgba(81, 85, 126, 0.5));
     border-radius: 10px;
     color: white;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
-    margin-right: 30px
+    margin-right: 1.87rem
 }
 
 #autre2 {
 
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
     background-color: black;
     border-radius: 10px;
     color: white;
-    font-size: 18px;
+    font-size: 1.12px;
     font-weight: 500;
 }
 
 #autre3 {
 
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
     background-color: black;
     border-radius: 10px;
     color: white;
-    font-size: 18px;
+    font-size: 1.12px;
     font-weight: 500;
 }
 
 #mercure {
-    font-size: 36px;
-    margin-bottom: 16px;
-    letter-spacing: 3px;
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
 #venus {
-    font-size: 36px;
-    margin-bottom: 22px;
-    letter-spacing: 3px;
+    font-size: 2.25rem;
+    margin-bottom: 1.37rem;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
 #laterre {
-    font-size: 36px;
-    margin-bottom: 16px;
-    letter-spacing: 3px;
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
 #mars {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-bottom: 21px;
-    letter-spacing: 3px;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
 #jupiter {
-    font-size: 36px;
-    margin-bottom: 16px;
-    letter-spacing: 3px;
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
 #saturne {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-bottom: 21px;
-    letter-spacing: 3px;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
 #uranus {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-bottom: 15px;
-    letter-spacing: 3px;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
 #neptune {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-bottom: 21px;
-    letter-spacing: 3px;
+    letter-spacing: 0.18rem;
     font-weight: 700;
 }
 
@@ -238,35 +238,35 @@ footer {
 }
 
 #imgneptune {
-    margin-left: 95px;
+    margin-left: 5.93rem;
 }
 
 #imguranus {
-    margin-right: 127px;
+    margin-right: 7.93rem;
 }
 
 #imgsaturne {
-    margin-left: 95px;
+    margin-left: 5.93rem;
 }
 
 #imgjupiter {
-    margin-right: 127px;
+    margin-right: 7.93rem;
 }
 
 #imgmars {
-    margin-left: 95px;
+    margin-left: 5.93rem;
 }
 
 #imglaterre {
-    margin-right: 127px;
+    margin-right: 7.93rem;
 }
 
 #imgvenus {
-    margin-left: 95px;
+    margin-left: 5.93rem;
 }
 
 #imgmercure {
-    margin-right: 127px;
+    margin-right: 7.93rem;
 }
 
 main h3 {
@@ -307,7 +307,7 @@ footer div nav ul li a {
   
     font-size: 1.87rem;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 0.18rem;
 }
 
 
