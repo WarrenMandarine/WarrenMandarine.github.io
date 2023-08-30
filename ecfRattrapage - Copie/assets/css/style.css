@@ -1,0 +1,361 @@
+body{
+    width: 100%;
+
+    
+}
+.accueil{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+#colorP{
+  color:#600;
+}
+
+header, .PostHeader{
+    background-color: #61A8BC;
+}
+
+.divPostHeader{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.divTextPostHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 80px;
+}
+
+h1{
+  font-size: 65px;
+  color: white;
+  margin-bottom: 30px;
+
+}
+.HeaderP{
+  font-size: 24px;
+  margin-right: 80px;
+
+}
+
+#FirstButton{
+
+width: 200px;
+height: 68px;
+padding: 10px 35px 10px 35px;
+gap: 10px;
+background: #660000;
+font-size: 24px
+
+}
+
+
+.FirstSection{
+
+ background: linear-gradient(180deg, #660000 33.33%, #3B0000 100%);
+ display: flex;
+ justify-content: space-between;
+
+}
+
+h2{
+    padding: 18px 80px 18px 80px;
+    background-color: #FFF;
+    font-size: 54px;
+    text-transform: uppercase;
+    max-width: 640px;
+    margin-top: 80px;
+}
+
+.PFirstSection{
+
+  font-size: 24px;
+  max-width: 650px;
+  color: white;
+  padding: 0px 80px 0px 80px;
+
+}
+.ImgSection1{
+  display: flex
+}
+.Img1{
+
+  margin-top: 80px;
+  margin-right: 670px;
+  margin-left: 80px;
+  
+}
+
+.CoteDroitSection{
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-left: 30px;
+}
+#SecondButton{
+  padding: 10px 35px 10px 35px;
+  background: #353535;
+  font-size: 24px;
+  color: #FFF;
+
+}
+
+.FirstSectionBis{
+
+ background: #353535;
+ display: flex
+
+}
+
+
+#TroisButton{
+
+  padding: 10px 35px 10px 35px;
+  background:  #660000;
+  font-size: 24px;
+  color: #FFF;
+  margin-left: 412px;
+  margin-bottom: 80px;
+}
+
+
+.Img2{
+
+  margin-top: 96px;
+  margin-right: 80;
+  margin-left: 720px;
+  
+}
+
+.CoteGaucheSection{
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+
+.SecondButtonBIS{
+  padding: 10px 35px 10px 35px;
+  background: #660000;
+  font-size: 24px;
+  color: #FFF;
+
+}
+
+
+.FirstSectionBis2{
+
+  background: #61A8BC;
+  display: flex
+
+ }
+
+ .FirstSectionBis3{
+  background-color: #FFF;
+  display: flex
+
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+   
+
+footer {
+    display: flex;
+    font-family: SourceSansPro;
+    padding: 2.5rem 0 0 5rem;
+    align-items: flex-start;
+    gap: 160px;
+    align-self: stretch;
+    opacity: 0.8;
+    background: #61A8BC;
+  }
+  
+  #block_liens {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .liens{
+    display: flex;
+    text-decoration: none;
+    padding-bottom: .625rem;
+  }
+  
+  #block_liens_gauche {
+    width: 256px;
+  }
+  
+  #block_liens_gauche h3,
+  #block_liens_droite h3 {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: .625rem;
+  }
+  
+  #block_liens_gauche a,
+  #block_liens_droite a {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  #block_liens_gauche a:hover,
+  #block_liens_droite a:hover {
+    color: #600;
+  }
+  #button_footer:hover{
+    color: white;
+    background-color: #600;
+    
+  }
+
+  #button_footer {
+    color: white;
+    font-size: 24px;
+    padding: 10px 35px 10px 35px;
+    background-color: #600;
+    margin-top: 30px;
+    margin-left: 160px;
+  }
+  
+  #credit {
+    padding: 2.5rem 0;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  
+  #formulaire {
+    max-width: 540px;
+    margin-left: 48.75rem;
+    height: 255px;
+    display: flex;
+    padding: 2.5rem;
+    margin-right: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #D0E4EB;
+  }
+  
+  #formulaire p {
+    color: #600;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  #typo1 {
+    color: #600;
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  input {
+    display: flex;
+    width: 28.75rem;
+    padding: .375rem .625rem;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border: 1px solid #CCCCCC;
+    background: #FFF;
+  }
+  
+  input::placeholder {
+    color: #B0B0B0;
+    font-family: 'Source Sans Pro';
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* Styles généraux */
+
+/* ... (autres styles) ... */
+
+/* Media query pour les écrans de taille maximale de 768px (utilisation mobile) */
+@media (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+
+  /* Styles pour la section d'accueil en mobile */
+  .accueil {
+    flex-direction: column; /* Empile les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+  }
+  body, .accueil, .links, .divPostHeader, .divTextPostHeader, .FirstSection, .CoteDroitSection, 
+  .CoteGaucheSection, .FirstSectionBis, .ImgSection1, .FirstSectionBis2, .ImgSection2, 
+  .FirstSectionBis3, .ImgSection2, footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Ajuste la taille maximale des images */
+  img {
+    max-width: 100px;
+    height: auto; /* Assure le respect du rapport hauteur/largeur */
+  }
+  /* Styles pour les liens en mobile */
+  .links {
+    flex-direction: column; /* Empile les liens verticalement */
+    align-items: center; /* Centre les liens horizontalement */
+    margin-top: 20px; /* Ajoute de l'espace en haut */
+  }
+
+  /* ... (ajoute des styles similaires pour les autres sections et éléments) ... */
+
+  /* Styles pour le pied de page en mobile */
+  footer {
+    flex-direction: column; /* Empile les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    padding: 2.5rem 0; /* Espacement du contenu du pied de page */
+    gap: 40px; /* Réduit l'espacement vertical entre les éléments */
+    text-align: center; /* Centre le texte horizontalement */
+  }
+
+  /* ... (ajoute des styles similaires pour les éléments du pied de page en mobile) ... */
+}
