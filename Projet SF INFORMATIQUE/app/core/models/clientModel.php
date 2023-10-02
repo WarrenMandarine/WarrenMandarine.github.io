@@ -5,7 +5,7 @@ function findAll()
     // Connexion à la base de données et exécution de la requête SQL
     $servername = "localhost";
     $username = "root";
-    $password = "root";
+    $password = "";
     $dbname = "SFInformatique";
 
     // Création de la connexion
@@ -32,7 +32,7 @@ function add($nom, $prenom, $email, $telephone, $adresse, $motDePasse, $modelePC
     // Connexion à la base de données et exécution de la requête SQL
      $servername = "localhost";
      $username = "root";
-     $password = "root";
+     $password = "";
      $dbname = "SFInformatique";
  
      // Création de la connexion
@@ -63,7 +63,7 @@ function findBy($id){
         // Connexion à la base de données et exécution de la requête SQL
         $servername = "localhost";
         $username = "root";
-        $password = "root";
+        $password = "";
         $dbname = "SFInformatique";
     
         // Création de la connexion
@@ -85,7 +85,7 @@ function update($id, $nom, $prenom, $email, $telephone, $adresse, $motDePasse, $
         // Connexion à la base de données et exécution de la requête SQL
         $servername = "localhost";
         $username = "root";
-        $password = "root";
+        $password = "";
         $dbname = "SFInformatique";
     
         // Création de la connexion
