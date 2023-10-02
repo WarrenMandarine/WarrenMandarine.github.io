@@ -1,0 +1,308 @@
+  /*---Body---*/
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  /*---FIN BODY---*/
+
+  /*---HEADER---*/
+header nav{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+nav li {
+  display: inline-block;
+  margin: 0;
+  }
+  
+nav li a {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  }
+  
+nav li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(67,154, 236); 
+  
+  /* Couleur de surbrillance */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  }
+  
+nav li a.active:after {
+  opacity: 1;
+  }
+  
+header img {
+    max-width: 300px;
+  }
+
+header img{
+    width: 45%;
+    object-fit: contain;
+}
+
+header{
+  border-bottom: 2px solid;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.LogoAccueil{
+  display: flex;
+  justify-content: space-between;
+  
+}
+  
+/*Bouton Accueil */
+
+.buttonAcc{
+  display: flex;
+  padding-top: 50%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/*FIN - - - Bouton Accueil */
+
+  /* ---FIN-HEADER---*/
+
+  /* ---MAIN---*/
+
+form{
+    width: 100%;
+} 
+
+  /* Style pour la liste de clients */
+  .client-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .client-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .client-item h3 {
+    margin-top: 0;
+  }
+  
+  .client-item a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .client-item a:hover {
+    background-color: #23527c;
+  }
+  .client-item {
+    cursor: pointer;
+}
+/* -FIN-liste de clients */
+
+/* Mise en tableau la liste + mise en card */
+
+.card {
+  display: none;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+  max-height: 100px; /* Hauteur initiale réduite */
+}
+
+.card.expanded {
+  max-height: none; /* Hauteur complète */
+  display: block;
+}
+
+.card img {
+  width: 50%;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border-radius: 15px;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  outline: 0;
+  padding: 12px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  color: white;
+  background-color: rgb(67,154, 236);
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 14px;
+  font-family:Verdana;
+  
+}
+#Terminer {
+  font-size: 12px;
+  color: red;
+}
+  
+/* -FIN- Mise en tableau */
+  
+p {
+  font-size: 12px;
+}
+
+
+h1{
+  color: rgb(67,154, 236);
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Verdana;
+  
+}
+
+h2 {
+  font-size: small;
+  font-weight: 600;
+  font-family: verdana;
+  text-decoration: underline;
+}
+
+h3{
+  text-align: center;
+  font-family: verdana;
+  font-size: smaller;
+  font-weight: 100;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  width: 1000px;
+}
+
+th{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+tr{
+  font-family: Arial, Helvetica, sans-serif;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Affichage carte */
+.card {
+  display: none;
+  
+}
+
+.card.expanded {
+  display: block;
+}
+
+/* -FIN-Affichage carte */ 
+
+/* Barre de recherche pour les clients */
+
+.search-input {
+  position: absolute;
+  background-color: #000;
+  color: white;
+  right: 8px;
+  top: 79px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+input::placeholder {
+  color: white;
+  opacity: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* -FIN- Barre de recherche */
+
+/*nouveau input ENTREE CLIENTS */
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.input{
+  width: 100%;
+  padding: 5px;
+  border-bottom: 2px solid rgb(200,200,200);
+  outline: 0;
+  font-size: 16px;
+  color: rgb(80,80,80);
+ 
+}
+.single-input{
+padding-top: 20px;
+}
+
+.buttonEnvoyer{
+    margin-left: 45%;
+    padding: 10px;
+}
+
+/* FIN - - - nouveau input */
+/* ---FIN-MAIN---*/
